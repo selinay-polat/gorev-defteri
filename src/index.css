@@ -1,0 +1,22 @@
+body {
+  background: #eef2f1;
+  color: #1f2a2e;
+  font-family: Georgia, "Times New Roman", serif;
+}
+.notebook {
+  max-width: 640px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-left: 6px solid #2f6f6a;
+  border-radius: 4px;
+}
+.task-done {
+  text-decoration: line-through;
+  color: #8a9697;
+}
+button:focus-visible,
+input:focus-visible {
+  outline: 3px solid #2f6f6a;
+  outline-offset: 2px;
+}
